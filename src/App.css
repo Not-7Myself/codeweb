@@ -1,38 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --text: #1c161e;
+  --background: #f5f0f9;
+  --primary: #ab46d2;
+  --secondary: #b883e7;
+  --accent: #bf81d9;
+  --fill: rgba(215, 95, 231, 0.25);
+}
+
+[data-theme="dark"] {
+  --text: #f8edf3;
+  --background: #1c161e;
+  --primary: #912db9;
+  --secondary: #4d187c;
+  --accent: #63267e;
+  --fill: rgba(138, 13, 180, 0.3);
+}
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
-}
+  font-family: "Oxanium", sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transition-duration: 0.3s;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

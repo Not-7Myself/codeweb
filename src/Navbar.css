@@ -1,0 +1,156 @@
+@import url("./App.css");
+
+nav ul {
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: calc(10px + 2vmin);
+  color: var(--text);
+  margin: 0;
+  padding: 0.5em 1em;
+  list-style: none;
+  height: 10vh;
+}
+nav .fill .mainNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+  margin: 0;
+}
+.mainNav li {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+nav .fill .icons {
+  display: flex;
+  align-items: center;
+}
+nav .fill .icons svg {
+  margin: 1em;
+}
+svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+nav li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav li .logo {
+  width: 4.5em;
+  height: auto;
+}
+
+nav li .link {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+nav li .link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+nav li .link:hover {
+  color: var(--primary);
+}
+
+nav li .link:hover::after {
+  width: 100%;
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.burger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: var(--background);
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease;
+  z-index: 5;
+}
+
+.sidebar.show {
+  right: 0;
+}
+.close-btn {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 20px;
+  text-align: right;
+  color: var(--text);
+}
+
+.menu {
+  list-style: none;
+  padding: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--text);
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 900px) {
+  .burger {
+    display: flex;
+  }
+  .mainNav li {
+    display: none;
+  }
+  .fill {
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .sidebar.show .menu {
+    display: block;
+  }
+}

@@ -1,0 +1,104 @@
+body {
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.bodyalt {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+span {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  color: var(--primary);
+}
+
+.intro div {
+  font-size: 1.2rem;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.intro h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: "Oxanium", sans-serif;
+  margin: 0;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.secondary div,
+.primary div {
+  font-size: 1.1rem;
+}
+
+.tertiary div {
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btns {
+  margin: 30px 0;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+button {
+  position: relative;
+  border: none;
+  outline: none;
+
+  font-family: "Oxanium", sans-serif;
+  font-size: 1.6em;
+  font-weight: 800;
+
+  padding: 0.4em 1em;
+
+  background-color: var(--background);
+  color: var(--primary);
+
+  border: 0.1em solid var(--primary);
+  z-index: 5;
+
+  transition: 0.4s all ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--text);
+  margin-top: -0.2em;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  right: -64px;
+  height: 300px;
+  transform: rotate(-20deg);
+}
