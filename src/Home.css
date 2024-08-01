@@ -45,10 +45,11 @@ section .hero h1 {
 
   padding: 0;
 }
-section .hero p {
+section .hero p span {
   font-family: "Istok Web", sans-serif;
   font-size: 1.6vw;
   font-weight: 600;
+  color: var(--text);
 
   margin-top: -15px;
 }
@@ -81,14 +82,14 @@ section .hero button {
 
   transition: 0.4s all ease-in-out;
 }
-section .hero button .nav-link {
+section .hero a button {
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--primary);
 }
-.nav-link-active {
-  color: var(--accent);
+section .hero a button:active {
+  color: var(--primary);
 }
-section .hero button:hover {
+section .hero a button:hover {
   cursor: pointer;
   background-color: var(--primary);
   color: var(--text);
@@ -96,6 +97,7 @@ section .hero button:hover {
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .area {
   width: 100%;
   height: 100vh;

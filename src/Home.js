@@ -26,9 +26,9 @@ export default function Home() {
             />
           </p>
           <h3>27-27 August, 2K24</h3>
-          <button>
-            <NavLink to="/Register">REGISTER</NavLink>
-          </button>
+          <NavLink to="/Register">
+            <button>REGISTER</button>
+          </NavLink>
           <br />
           <div class="scroll-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
