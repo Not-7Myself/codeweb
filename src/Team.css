@@ -49,7 +49,7 @@ p {
 
 .cards-container .card {
   display: flex;
-  width: 346px;
+  width: 370px;
   height: 165px;
   background-color: var(--text);
   border-radius: 8px;

@@ -1,5 +1,8 @@
 import React from "react";
 import "./EventList.css";
+
+import Event from "./Event";
+
 import img1 from "./images/web-dev.png";
 import img2 from "./images/clapperboard.png";
 import img3 from "./images/game.png";

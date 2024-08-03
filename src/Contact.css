@@ -52,7 +52,7 @@ strong {
   color: var(--text);
 }
 .contact-boxes .box {
-  background-color: #2b222e;
+  background-color: var(--box);
   height: 100%;
   align-items: center;
   font-size: 0.8em;

@@ -1,5 +1,8 @@
 export const data = [
   {
-    nome: "tuxpaint",
+    link: "tuxpaint",
+    nome: "Tuxpaint",
+    n: 2,
+    dom:
   },
 ];

@@ -15,7 +15,7 @@ const cardData1 = [
   {
     name: `Moloy Sikka`,
     title: "President",
-    description: "This is a small description.",
+    description: "All that is gold does not glitter.",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -26,7 +26,7 @@ const cardData1 = [
   {
     name: "Vipul Mittal",
     title: "Robotics President",
-    description: "This is a small description.",
+    description: "psychward ceo",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -39,7 +39,7 @@ const cardData2 = [
   {
     name: "Amaan Elahi",
     title: "Vice President",
-    description: "This is a small description.",
+    description: "maybe, maybe not...",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -50,7 +50,7 @@ const cardData2 = [
   {
     name: "Manan Kasana",
     title: "Vice President",
-    description: "This is a small description.",
+    description: "Rok sako toh roklo",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -61,7 +61,7 @@ const cardData2 = [
   {
     name: "Surat Sahni",
     title: "Robotics Vice President",
-    description: "This is a small description.",
+    description: "be kind, be courageous 🍀 -my dad(and cinderella)",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -74,7 +74,7 @@ const cardData3 = [
   {
     name: "Shambhavi",
     title: "Director",
-    description: "This is a small description.",
+    description: "Messy bun and getting things done:)",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -85,7 +85,7 @@ const cardData3 = [
   {
     name: "Ritik Singh",
     title: "Director",
-    description: "This is a small description.",
+    description: "Learn to rest, not to quit.",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -96,7 +96,7 @@ const cardData3 = [
   {
     name: "Siddhant Mishra",
     title: "Director",
-    description: "This is a small description.",
+    description: "print('Hello World!')",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -109,7 +109,7 @@ const cardData4 = [
   {
     name: "Atharva Gupta",
     title: "Director",
-    description: "This is a small description.",
+    description: "This is your MASTER SPEAKING! haHAA",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -120,7 +120,7 @@ const cardData4 = [
   {
     name: "Saksham",
     title: "Director",
-    description: "This is a small description.",
+    description: "The godfather>>",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -131,7 +131,7 @@ const cardData4 = [
   {
     name: "Saharsh Bhardwaj",
     title: "Director",
-    description: "This is a small description.",
+    description: "You are never alone, god is always with you.",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -144,7 +144,7 @@ const cardData5 = [
   {
     name: "Ariet Jha",
     title: "Director",
-    description: "This is a small description.",
+    description: "Papa hu, is duniya ka papa",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -155,7 +155,7 @@ const cardData5 = [
   {
     name: "Maulik Jain",
     title: "Director",
-    description: "This is a small description.",
+    description: "Preoccupied with a single leaf... you won't see the tree. ",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -166,7 +166,7 @@ const cardData5 = [
   {
     name: "Antahakaran",
     title: "Director",
-    description: "This is a small description.",
+    description: "Show Me Your MOTIVATION!!",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -179,7 +179,7 @@ const cardData6 = [
   {
     name: "Nairit",
     title: "Director",
-    description: "This is a small description.",
+    description: "Mujhe Bread pasand hai :D",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -190,7 +190,7 @@ const cardData6 = [
   {
     name: "Siya Batra",
     title: "Secretary",
-    description: "This is a small description.",
+    description: "H&M shoplifter",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -201,7 +201,7 @@ const cardData6 = [
   {
     name: "Abhiroop Kapoor",
     title: "Secretary",
-    description: "This is a small description.",
+    description: "Tainted are those who do not attempt",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -214,7 +214,7 @@ const cardData7 = [
   {
     name: "Yashraj Bhardwaj",
     title: "Director",
-    description: "This is a small description.",
+    description: "Trust God's Plan",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -225,7 +225,7 @@ const cardData7 = [
   {
     name: "Ishaan Gupta",
     title: "Director",
-    description: "This is a small description.",
+    description: "Professional overthinker",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -236,7 +236,7 @@ const cardData7 = [
   {
     name: "Ritobrato Bhaumik",
     title: "Director",
-    description: "This is a small description.",
+    description: "God's Perfect Idiot",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },

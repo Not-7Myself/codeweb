@@ -6,7 +6,8 @@ import Event from "./Event";
 import Team from "./Team";
 import EventList from "./EventList";
 import Contact from "./Contact";
-import Construction from "./Construction.js";
+
+import { data } from "./data1";
 
 // src/App.js
 import React from "react";
@@ -27,13 +28,20 @@ function App() {
   return (
     <>
       <Router>
-        ={" "}
         <div className="App">
+          <NavBar />
           <Routes>
-            <Route path="/" element={<Construction />} />
-            {/*<Route path="/Events" element={<EventList />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/Events" element={<EventList />} />
             <Route path="/Team" element={<Team />} />
-            <Route path="/Contact" element={<Contact />} />*/}
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Events">
+              {data.map((data) => {
+                return (
+                  <Route path={data.link} element={<Event data={data} />} />
+                );
+              })}
+            </Route>
             <Route
               path="/Register"
               element={
@@ -43,13 +51,7 @@ function App() {
             <Route
               path="/Brochure"
               element={
-                <ExternalRedirect to="https://drive.google.com/file/d/1j71EEUz4aIcSUUFUfbK-FdbUJ39z7kuB/view" />
-              }
-            />
-            <Route
-              path="/Teaser"
-              element={
-                <ExternalRedirect to="https://drive.google.com/file/d/1fSFA3EV-JXezE7LG5N8XXjb11S2tKzXM/view  " />
+                <ExternalRedirect to="https://drive.google.com/file/d/1UTLDgdUTrdRqdYmkA-iEFqxFueHA_oOS/view" />
               }
             />
           </Routes>

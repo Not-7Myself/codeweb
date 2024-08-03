@@ -9,6 +9,7 @@
   --secondary: #b883e7;
   --accent: #bf81d9;
   --fill: rgba(215, 95, 231, 0.25);
+  --box: #bab6bb;
 }
 
 [data-theme="dark"] {
@@ -18,6 +19,7 @@
   --secondary: #4d187c;
   --accent: #63267e;
   --fill: rgba(138, 13, 180, 0.3);
+  --box: #2b222e;
 }
 body {
   overflow-x: hidden;
