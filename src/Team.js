@@ -310,6 +310,7 @@ export default function Team() {
       <CardsContainer cards={cardData5} />
       <CardsContainer cards={cardData6} />
       <CardsContainer cards={cardData7} />
+      <CardsContainer cards={cardData8} />
 
       <img src={html} className="img1" alt="Python" />
       <img src={keynote} className="img2" alt="Camera" />
