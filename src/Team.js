@@ -245,6 +245,19 @@ const cardData7 = [
     ],
   },
 ];
+const cardData8 = [
+  {
+    name: "Atharva Srivastava",
+    title: "OG",
+    description: "",
+    icons: [
+      { icon: faInstagram, href: "#" },
+      { icon: faEnvelope, href: "#" },
+      { icon: faGithub, href: "#" },
+      { icon: faSpotify, href: "#" },
+    ],
+  },
+];
 const Card = ({ name, title, description, icons }) => {
   return (
     <div className="card">
