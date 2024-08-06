@@ -23,6 +23,8 @@ import chatforge from "./Icons/14.PNG";
 import robowars from "./Icons/15.PNG";
 
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 const eventImages = [
   [
@@ -59,6 +61,20 @@ const EventBox = ({ src }) => (
 );
 
 export default function App() {
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: "bottom",
+      distance: "50px",
+      duration: 2000,
+      reset: true,
+    });
+
+    sr.reveal(".boxes", { delay: 50 });
+
+    return () => {
+      sr.destroy();
+    };
+  }, []);
   return (
     <div className="list">
       <div className="intro">

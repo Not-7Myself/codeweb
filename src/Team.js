@@ -26,13 +26,14 @@ import Abhiroop from "./Pics/Abhiroop.png";
 import Yashraj from "./Pics/Yashraj.jpg";
 import Ishaan from "./Pics/Ishaan.jpg";
 import Ritik from "./Pics/Ritik.jpg";
-import Rakshit from "./Pics/Rakshit.jpg";
+import Rakshit from "./Pics/Raksit.jpg";
 import Maulik from "./Pics/Maulik.jpg";
 import Manan from "./Pics/Manan.jpg";
 import Saharsh from "./Pics/Saharsh.jpg";
 import Surat from "./Pics/surat.jpg";
 import Rito from "./Pics/Rito.jpg";
 import sid from "./Pics/siddhant.jpg";
+import amaan from "./Pics/Amaan.jpg";
 
 const cardData1 = [
   {
@@ -63,7 +64,7 @@ const cardData1 = [
 const cardData2 = [
   {
     name: "Amaan Elahi",
-    img: Moloy,
+    img: amaan,
 
     title: "Vice President",
     description: "maybe, maybe not...",
