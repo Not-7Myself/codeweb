@@ -2,22 +2,36 @@ import "./Home.css";
 import teaser from "./vids/Teaser.mp4";
 import { ReactTyped as Typed } from "react-typed";
 import { NavLink } from "react-router-dom";
-
-import game from "./images/game.png";
-import vid from "./images/clapperboard.png";
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 export default function Home() {
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: "bottom",
+      distance: "80px",
+      duration: 2000,
+      reset: true,
+    });
+
+    sr.reveal(".hero", { delay: 300 });
+
+    return () => {
+      sr.destroy();
+    };
+  }, []);
+
   return (
     <div className="home">
       <section>
         <div className="hero">
-          <h1>CODE</h1>
-          <p>
+          <h1 className="title">CODE</h1>
+          <p className="typetext">
             <Typed
               strings={[
                 "VENI. VIDI. VICI.",
                 "Confluence of Digital Experts",
-                "Annual Tech Fest of Apeejay Noida",
+                "Annual Tech Fest of Apeejay School, Noida",
               ]}
               typeSpeed={100}
               backSpeed={80}
@@ -25,8 +39,8 @@ export default function Home() {
               loop
             />
           </p>
-          <h3>27-27 August, 2K24</h3>
-          <NavLink to="/Register">
+          <h3 className="date">27-28 August, 2K24</h3>
+          <NavLink className="btn" to="/Register">
             <button>REGISTER</button>
           </NavLink>
           <br />

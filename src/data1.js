@@ -1,7 +1,7 @@
 export const data = [
   {
     link: "tuxpaint",
-    img: "",
+    img: {},
     nome: "Tuxpaint",
     n: 2,
     dom: "III-V",
@@ -25,7 +25,6 @@ export const data = [
     contact: (
       <div>
         Antahakaran Sadhukan <br />
-        Discord: <span> godzilarampag</span> <br />
         Phone No: <span> +91 91233 87821</span>
       </div>
     ),
@@ -141,7 +140,7 @@ export const data = [
     contact: (
       <div>
         Saharsh Bharadwaj <br />
-        Discord: <span> dilo_ka_shehzaada</span> <br />
+        Discord: <span> king_saharsh</span> <br />
         Phone No: <span> +91 836 823 2972</span>
       </div>
     ),
@@ -346,7 +345,7 @@ export const data = [
     contact: (
       <div>
         Rakshit Mathur <br />
-        Discord: <span>_craster01</span> <br />
+        Discord: <span>rakshit.mathur</span> <br />
         Phone No: <span> +91 95557 07801</span>
       </div>
     ),
@@ -384,7 +383,7 @@ export const data = [
     contact: (
       <div>
         Amaan Elahi <br />
-        Discord: <span> _notmyself</span> <br />
+        Discord: <span> amon.elahi</span> <br />
         Phone No: <span> +91 98702 11033</span>
       </div>
     ),

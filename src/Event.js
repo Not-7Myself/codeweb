@@ -1,6 +1,5 @@
 import React from "react";
 import "./Event.css";
-import html from "./images/web-dev.png";
 
 const Event = ({ data }) => {
   return (
@@ -21,7 +20,8 @@ const Event = ({ data }) => {
       <br />
       <br />
       <div className="tertiary">{data.contact}</div>
-      <img src={html} className="img"></img>
+      <img src={data.img} className="img"></img>
+      {console.log(data.img.tuxpaintImg)}
     </div>
   );
 };

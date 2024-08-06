@@ -6,6 +6,7 @@ import Event from "./Event";
 import Team from "./Team";
 import EventList from "./EventList";
 import Contact from "./Contact";
+import Footer from "./footer";
 
 import { data } from "./data1";
 
@@ -51,10 +52,11 @@ function App() {
             <Route
               path="/Brochure"
               element={
-                <ExternalRedirect to="https://drive.google.com/file/d/1UTLDgdUTrdRqdYmkA-iEFqxFueHA_oOS/view" />
+                <ExternalRedirect to="https://drive.google.com/drive/folders/19R_V3WPiK2jzoPqir7o2CsdV0DYQO1sC?usp=sharing" />
               }
             />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </>
