@@ -12,14 +12,14 @@ const Footer = () => {
           <i className="fab fa-whatsapp"></i>
         </a>
         <a
-          href="https://www.instagram.com/your-profile"
+          href="https://www.instagram.com/codeclubapj/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-instagram"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/codeclubapjn/"
           target="_blank"
           rel="noopener noreferrer"
         >
