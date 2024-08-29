@@ -52,7 +52,7 @@ const cardData1 = [
     name: "Vipul Mittal",
     img: Vipul,
     title: "Robotics President",
-    description: "psychward ceo",
+    description: "Veni. Vidi. Vici.",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -174,7 +174,7 @@ const cardData4 = [
     img: Atharva,
 
     title: "Director",
-    description: "This is your MASTER SPEAKING! haHAA",
+    description: "Victoria Concordia Crescit",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },

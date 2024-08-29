@@ -1,4 +1,3 @@
-// src/components/Contact.js
 import React from "react";
 import "./Contact.css";
 
@@ -53,12 +52,12 @@ const Contact = () => {
           </p>
         </div>
         <div className="box">
-          <h2>Amaan Elahi</h2>
+          <h2>Vipul Mittal</h2>
           <p>
-            <strong>Vice President</strong>
+            <strong>Robotics President</strong>
           </p>
           <p>
-            <strong>Email:</strong> amaanelahi07@gmail.com
+            <strong>Email:</strong> vipulmittal803@gmail.com
           </p>
           <p>
             <strong>Phone Number:</strong> +91 98702 11033

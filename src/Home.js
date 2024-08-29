@@ -4,6 +4,7 @@ import { ReactTyped as Typed } from "react-typed";
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
+import code from "./images/code_logo.png";
 
 export default function Home() {
   useEffect(() => {
@@ -15,6 +16,8 @@ export default function Home() {
     });
 
     sr.reveal(".hero", { delay: 300 });
+    sr.reveal(".text", { delay: 200 });
+    sr.reveal(".imag", { delay: 300 });
 
     return () => {
       sr.destroy();
@@ -25,6 +28,20 @@ export default function Home() {
     <div className="home">
       <section>
         <div className="hero">
+          <div class="area">
+            <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
           <h1 className="title">CODE</h1>
           <p className="typetext">
             <Typed
@@ -40,9 +57,14 @@ export default function Home() {
             />
           </p>
           <h3 className="date">27-28 August, 2K24</h3>
-          <NavLink className="btn" to="/Register">
-            <button>REGISTER</button>
-          </NavLink>
+          <span>
+            <NavLink className="btn" to="/Register">
+              <button>REGISTER</button>
+            </NavLink>
+            <NavLink className="btn" to="/Brochure">
+              <button>BROCHURE</button>
+            </NavLink>
+          </span>
           <br />
           <div class="scroll-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -50,29 +72,30 @@ export default function Home() {
             </svg>
           </div>
         </div>
-        <div class="area">
-          <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
       </section>
+      <About />
       <div className="teaser">
         <h1>TEASER</h1>
-        <video
-          src={teaser}
-          controls
-          disablePictureInPicture
-          controlsList="nodownload"
-        ></video>
+        <video src={teaser} loop disablePictureInPicture></video>
+      </div>
+    </div>
+  );
+}
+function About() {
+  return (
+    <div className="about">
+      <div className="text">
+        <h1>About</h1>
+        CODE is an illustrious annual technological symposium hosted by the CODE
+        Club of Apeejay School, Noida. This prestigious event brings together
+        tech enthusiasts from across Delhi-NCR to compete at the cutting edge of
+        technology. With a rich agenda featuring competitive programming, group
+        discussions, and robotic face-offs, CODE stands as a premier platform
+        for fostering technological excellence and inspiring the next generation
+        of innovators.
+      </div>
+      <div className="imag">
+        <img src={code} alt="CODE" />
       </div>
     </div>
   );
