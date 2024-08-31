@@ -17,14 +17,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
-const ExternalRedirect = ({ to }) => {
-  React.useEffect(() => {
-    window.location.href = to;
-  }, [to]);
-
-  return null;
-};
-
 function App() {
   return (
     <>
