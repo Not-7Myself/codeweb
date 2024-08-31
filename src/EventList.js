@@ -16,7 +16,7 @@ import robowars from "./Icons/robowars.png";
 import framefusion from "./Icons/framefusion.jpg";
 import tuxpaint from "./Icons/tuxpaint.png";
 
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
@@ -141,9 +141,9 @@ const EventBox = ({ src }) => {
       <div className="card-content">
         <h1 className="card-title">{src.name}</h1>
         <p className="card-description">{src.desc}</p>
-        <NavLink to={`${src.nome}`}>
+        <Link to={`${src.nome}`}>
           <button className="btn">Details</button>
-        </NavLink>
+        </Link>
       </div>
     </div>
   );

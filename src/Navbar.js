@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import logo from "./images/code_logo.png";
 
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 
@@ -33,35 +33,35 @@ export default function NavBar() {
       <nav>
         <ul className="fill">
           <li>
-            <NavLink to="/">
+            <Link to="/">
               <img className="logo" src={logo} alt="CODE" />
-            </NavLink>
+            </Link>
           </li>
           <div className="mainNav">
             <li>
-              <NavLink to="/" className="link">
+              <Link to="/" className="link">
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/Events" className="link">
+              <Link to="/Events" className="link">
                 Events
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/Team" className="link">
+              <Link to="/Team" className="link">
                 Team
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/Brochure" className="link">
+              <Link to="/Brochure" className="link">
                 Brochure
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="/Contact" className="link">
+              <Link to="/Contact" className="link">
                 Contact
-              </NavLink>
+              </Link>
             </li>
           </div>
           <li className="icons">
@@ -96,29 +96,29 @@ export default function NavBar() {
         </div>
         <ul className="menu">
           <li>
-            <NavLink to="/" className="link">
+            <Link to="/" className="link">
               Home
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/Events" className="link">
+            <Link to="/Events" className="link">
               Events
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/Team" className="link">
+            <Link to="/Team" className="link">
               Team
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/Brochure" className="link">
+            <Link to="/Brochure" className="link">
               Brochure
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/Contact" className="link">
+            <Link to="/Contact" className="link">
               Contact
-            </NavLink>
+            </Link>
           </li>
           <hr />
         </ul>

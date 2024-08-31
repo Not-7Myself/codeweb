@@ -1,7 +1,7 @@
 import "./Home.css";
 import teaser from "./vids/teaser24.mp4";
 import { ReactTyped as Typed } from "react-typed";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import code from "./images/code_logo.png";
@@ -64,12 +64,12 @@ export default function Home() {
           </p>
           <h3 className="date">30th September - 1st October, 2K24</h3>
           <span>
-            <NavLink className="btn" to="/Register">
+            <Link className="btn" to="/Register">
               <button>REGISTER</button>
-            </NavLink>
-            <NavLink className="btn" to="/Brochure">
+            </Link>
+            <Link className="btn" to="/Brochure">
               <button>BROCHURE</button>
-            </NavLink>
+            </Link>
           </span>
           <br />
           <div class="scroll-icon">
