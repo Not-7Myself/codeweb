@@ -3,23 +3,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-  --text: #1c161e;
-  --background: #f5f0f9;
+  --text: #131014;
+  --txt2: #373737;
+  --background: #faf9fb;
   --primary: #ab46d2;
   --secondary: #b883e7;
   --accent: #bf81d9;
   --fill: rgba(215, 95, 231, 0.25);
+  --faint: #e6d0f0;
   --box: #bab6bb;
 }
 
 [data-theme="dark"] {
-  --text: #f8edf3;
-  --background: #1c161e;
+  --text: #faf9fb;
+  --txt2: #d3d3d3;
+  --background: #131014;
   --primary: #912db9;
   --secondary: #4d187c;
   --accent: #63267e;
   --fill: rgba(138, 13, 180, 0.3);
-  --box: #2b222e;
+  --faint: #352f37;
+  --box: #2b222e88;
 }
 body {
   overflow-x: hidden;

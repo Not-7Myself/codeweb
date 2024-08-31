@@ -11,6 +11,7 @@
   margin: 0;
   color: var(--text);
   font-family: "Oxanium", sans-serif;
+  background: var(--background);
 }
 
 section {
@@ -252,7 +253,7 @@ section .hero a button:hover {
 }
 .about .text {
   width: 75%;
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: left;
   font-family: "Poppins", sans-serif;
 }
@@ -260,7 +261,7 @@ section .hero a button:hover {
   color: var(--primary);
 }
 .about .imag img {
-  width: 500px;
+  width: 600px;
   margin-top: -60px;
 }
 .teaser {
@@ -280,9 +281,12 @@ section .hero a button:hover {
   color: var(--primary);
 }
 .teaser video {
-  width: auto;
-  height: 40vw;
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  overflow: hidden;
 }
+
 @media (max-width: 900px) {
   .about {
     height: 50vh;

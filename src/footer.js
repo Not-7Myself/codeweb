@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="social-media">
         <a
-          href="https://wa.me/your-number"
+          href="https://chat.whatsapp.com/H8yqL6cYmhZB2tqg5Rbv1y"
           target="_blank"
           rel="noopener noreferrer"
         >

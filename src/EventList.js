@@ -1,24 +1,22 @@
 import React from "react";
 import "./EventList.css";
 
-import img1 from "./images/web-dev.png";
-import img2 from "./images/clapperboard.png";
-import img3 from "./images/game.png";
-import tuxpaint from "./Icons/1.PNG";
-import scratch from "./Icons/2.PNG";
-import gaming from "./Icons/3.PNG";
-import quiz from "./Icons/4.PNG";
-import gd from "./Icons/5.PNG";
-import photography from "./Icons/6.PNG";
-import dcrypt from "./Icons/7.PNG";
-import di from "./Icons/8.PNG";
-import framefusion from "./Icons/9.PNG";
-import musicmatrix from "./Icons/10.PNG";
-import pycode from "./Icons/11.PNG";
-import hackthon from "./Icons/12.PNG";
-import keynote from "./Icons/13.PNG";
-import chatforge from "./Icons/14.PNG";
-import robowars from "./Icons/15.PNG";
+import Spline from "@splinetool/react-spline";
+
+import digitalimaging from "./Icons/digitalimaging.jpeg";
+import gaming from "./Icons/gaming.jpg";
+import pycode from "./Icons/pycode.jpg";
+import dcrypt from "./Icons/dcrpty.jpg";
+import scratch from "./Icons/scratch.jpg";
+import musicmatrix from "./Icons/musicmatrix.jpg";
+import photography from "./Icons/photography.jpg";
+import quiz from "./Icons/quiz.jpg";
+import gd from "./Icons/gd.jpg";
+import ideathon from "./Icons/ideathon.png";
+import chatforge from "./Icons/chatforge.jpg";
+import robowars from "./Icons/robowars.png";
+import framefusion from "./Icons/framefusion.jpg";
+import tuxpaint from "./Icons/tuxpaint.png";
 
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
@@ -26,38 +24,63 @@ import ScrollReveal from "scrollreveal";
 
 const eventImages = [
   [
-    { nome: "tuxpaint", value: tuxpaint },
-    { nome: "scratch", value: scratch },
-    { nome: "gaming", value: gaming },
-  ],
-  [
-    { nome: "quiz", value: quiz },
-    { nome: "groupdiscussion", value: gd },
-    { nome: "photography", value: photography },
-  ],
-  [
-    { nome: "dcrypt", value: dcrypt },
-    { nome: "digitalimaging", value: di },
-    { nome: "framefusion", value: framefusion },
-  ],
-  [
-    { nome: "musicmatrix", value: musicmatrix },
-    { nome: "pycode", value: pycode },
-    { nome: "hackathon", value: hackthon },
-  ],
-  [
-    { nome: "keynote", value: keynote },
-    { nome: "chatforge", value: chatforge },
-    { nome: "robowars", value: robowars },
+    {
+      nome: "ideathon",
+      value: ideathon,
+      name: "Ideathon",
+      desc: (
+        <>
+          Creativity is all you need!!!
+          <br />
+          <br />
+          (And maybe some Programming, Design and Speaking skills...)
+        </>
+      ),
+    },
+    {
+      nome: "robowars",
+      value: robowars,
+      name: "Robo Wars",
+      desc: (
+        <>
+          Destroy each other in a
+          <br />
+          Fight-to-Death (using bots ofcourse!)
+        </>
+      ),
+    },
+
+    { nome: "chatforge", value: chatforge, name: "Chat Forge" },
+    { nome: "framefusion", value: framefusion, name: "Frame Fusion" },
+    { nome: "dcrypt", value: dcrypt, name: "DCrypt" },
+    { nome: "pycode", value: pycode, name: "PyCODE" },
+    { nome: "quiz", value: quiz, name: "Quiz" },
+    { nome: "musicmatrix", value: musicmatrix, name: "Music Matrix" },
+    { nome: "gaming", value: gaming, name: "Gaming" },
+    { nome: "digitalimaging", value: digitalimaging, name: "Digital Imaging" },
+    { nome: "groupdiscussion", value: gd, name: "Group Discussion" },
+    { nome: "photography", value: photography, name: "Photography" },
+    { nome: "tuxpaint", value: tuxpaint, name: "Tux Paint" },
+    { nome: "scratch", value: scratch, name: "Scratch" },
   ],
 ];
 
-const EventBox = ({ src }) => (
-  <div className="box">
-    <img className="e1" src={src} alt="Event" />
-  </div>
-);
-
+const EventBox = ({ src }) => {
+  return (
+    <div className="box">
+      <div className="card-image">
+        <img src={src.value} alt={src.name} />
+      </div>
+      <div className="card-content">
+        <h1 className="card-title">{src.name}</h1>
+        <p className="card-description">{src.desc}</p>
+        <NavLink to={`${src.nome}`}>
+          <button className="btn">Details</button>
+        </NavLink>
+      </div>
+    </div>
+  );
+};
 export default function App() {
   useEffect(() => {
     const sr = ScrollReveal({
@@ -77,7 +100,7 @@ export default function App() {
     <div className="list">
       <div className="intro">
         <h1>EVENTS</h1>
-        <p>
+        <p className="p1">
           CODE 2K24 is packed with a plethora of events, exercising your skills
           on video editing, cryptic hunting, gaming, pitching, and much more!
         </p>
@@ -86,17 +109,11 @@ export default function App() {
         {eventImages.map((chunk, index) => (
           <div className="boxes" key={index}>
             {chunk.map((src, idx) => (
-              <NavLink to={`${src.nome}`}>
-                <EventBox key={idx} src={src.value} />
-              </NavLink>
+              <EventBox key={idx} src={src} />
             ))}
           </div>
         ))}
       </div>
-
-      <img className="img1" src={img1} alt="Decoration" />
-      <img className="img2" src={img2} alt="Decoration" />
-      <img className="img3" src={img3} alt="Decoration" />
     </div>
   );
 }

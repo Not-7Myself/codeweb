@@ -20,8 +20,6 @@ const Event = ({ data }) => {
       <br />
       <br />
       <div className="tertiary">{data.contact}</div>
-      <img src={data.img} className="img"></img>
-      {console.log(data.img.tuxpaintImg)}
     </div>
   );
 };

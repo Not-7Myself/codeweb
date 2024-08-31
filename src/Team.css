@@ -76,19 +76,19 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-image {
+.card .card-image {
   width: 169px;
   height: 100%;
   background-color: var(--background);
   border-radius: 8px;
 }
-.card-image-2 {
+.card .card-image-2 {
   width: 169px;
   height: 100%;
   background-color: var(--background);
   border-radius: 8px;
 }
-.card-image img {
+.card .card-image img {
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -148,8 +148,8 @@ p {
   gap: 10px;
   margin: 0.75rem 0;
 }
-.card-icons .spotify:hover {
-  color: #34ee3d;
+.card-icons svg:hover {
+  color: var(--accent);
 }
 
 .card-icons a {
@@ -169,32 +169,6 @@ p {
   font-size: 1.1em;
 }
 
-.img1 {
-  position: absolute;
-  z-index: -2;
-  top: 800px;
-  left: 6px;
-  height: 300px;
-  transform: rotate(10deg);
-}
-.img2 {
-  position: absolute;
-  z-index: -2;
-  top: 300px;
-  right: -50 px;
-  height: 300px;
-  transform: rotate(10deg);
-}
-.img3 {
-  position: absolute;
-  z-index: -2;
-  top: 1400px;
-  right: -72px;
-  /* left: 6px; */
-  height: 300px;
-  transform: rotate(10deg);
-}
-
 @media (max-width: 768px) {
   .cards-container,
   .cards-container-2 {
@@ -209,7 +183,6 @@ p {
     width: 309px;
 
     display: flex;
-    background-color: var(--text);
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s ease-in;
@@ -220,11 +193,10 @@ p {
     width: 90%;
   }
 
-  .card-image-2,
-  .card-image {
-    width: 169px; /* Ensures square box */
+  .card .card-image-2,
+  .card .card-image {
+    width: 169px;
     height: 100%;
-    background-color: var(--background);
     border-radius: 8px;
   }
 
@@ -237,26 +209,23 @@ p {
     flex-direction: column;
     justify-content: center;
     padding: 0 10px;
-    width: calc(100% - 169px); /* Adjusts width to account for image */
+    width: calc(100% - 169px);
   }
 
   .card-title-2,
   .card-title {
     margin: 0;
     font-size: 0.8rem;
-    color: var(--background);
   }
   .card-post-2,
   .card-post {
     margin: 0;
     font-size: 0.7rem;
-    color: var(--primary);
   }
   .card-description-2,
   .card-description {
     margin: 8px 0;
     font-size: 0.8rem;
-    color: var(--background);
   }
   .card-icons-2,
   .card-icons {
@@ -268,7 +237,6 @@ p {
 
   .card-icons-2 a,
   .card-icons a {
-    color: var(--background);
     font-size: 1.1em;
   }
 }

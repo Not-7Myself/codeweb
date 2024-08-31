@@ -6,23 +6,19 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-import { useEffect } from "react";
-import ScrollReveal from "scrollreveal";
-
-import "./App.css";
 import "./Team.css";
 
 import Moloy from "./Pics/Moloy.jpg";
-import Atharva from "./Pics/Atharva.png";
-import Nairit from "./Pics/Nairit.png";
-import Saksham from "./Pics/Saksham.png";
-import Siya from "./Pics/Siya.png";
-import Vipul from "./Pics/Vipul.png";
-import Kanta from "./Pics/Antahkaran.png";
-import Ariet from "./Pics/Ariet.png";
-import Shambhavi from "./Pics/Shambhavi.png";
-import Shivesh from "./Pics/Shivesh.png";
-import Abhiroop from "./Pics/Abhiroop.png";
+import Atharva from "./Pics/Atharva.jpg";
+import Nairit from "./Pics/Nairit.jpg";
+import Saksham from "./Pics/Saksham.jpg";
+import Siya from "./Pics/Siya.jpg";
+import Vipul from "./Pics/Vipul.jpg";
+import Kanta from "./Pics/Antahkaran.jpg";
+import Ariet from "./Pics/Ariet.jpg";
+import Shambhavi from "./Pics/Shambhavi.jpg";
+import Shivesh from "./Pics/Shivesh.jpg";
+import Abhiroop from "./Pics/Abhiroop.jpg";
 import Yashraj from "./Pics/Yashraj.jpg";
 import Ishaan from "./Pics/Ishaan.jpg";
 import Ritik from "./Pics/Ritik.jpg";
@@ -106,8 +102,8 @@ const cardData3 = [
     name: "Atharva Srivastava",
     img: Shivesh,
 
-    title: "OG",
-    description: "Meow meow, meow meow meow meow?!?!?",
+    title: "Director",
+    description: "print('Hello World!')",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -335,21 +331,6 @@ const cardData8 = [
   },
 ];
 const Card = ({ index, card }) => {
-  useEffect(() => {
-    const sr = ScrollReveal({
-      origin: "bottom",
-      distance: "50px",
-      duration: 2000,
-      reset: true,
-    });
-
-    sr.reveal(".card", { delay: 50 });
-
-    return () => {
-      sr.destroy();
-    };
-  }, []);
-
   return (
     <div className="card">
       <div className="card-image">

@@ -9,16 +9,15 @@ export const data = [
     software: (
       <>
         <br />
-        Software: <span>TUXPAINT</span>
+        Software: <span>Tux Paint</span>
       </>
     ),
     body: (
       <div className="primary">
         <h2>Details</h2>
         <div>
-          Participants are required to design a project on the topic which will
-          be given on the spot and showcase it. This will be followed by a QnA
-          session.
+          Participants will design a project on the topic which will be given on
+          the spot. This will be followed by a QnA session.
         </div>
       </div>
     ),
@@ -73,7 +72,8 @@ export const data = [
         <h2>Prelims</h2>
         <div>
           It will be held online and the games will be announced a few days
-          before the event on the <span>Discord Server</span>.
+          before the event on the Discord Server. There will be 2 rounds for the
+          prelims held on September 25, 2024 from 1900hrs to 2100hrs
         </div>
         <h2>Finals</h2>
         <div>
@@ -161,7 +161,7 @@ export const data = [
       <div className="primary">
         <h2>Details</h2>
         <div>
-          The theme of the event will be shared on the spot.
+          The prompt of the event will be shared on the spot.
           <br />
           <br />
           Participants will carry their own cameras and other required devices.
@@ -193,24 +193,26 @@ export const data = [
       <div className="primary">
         <h2>Prelims</h2>
         <div>
-          Participants will be given a series of cryptic challenges on a
-          website. The hunt will last 24 hours from{" "}
-          <span>August 19, 2024, 0000 hrs </span>
-          and conclude on <span>August 20, 2024, 0000 hrs</span>. Join the
-          Discord Server for leads.
+          Join our Cryptic Hunt x CTF challenge! Solve cryptic puzzles and
+          Jeopardy-style CTF levels to earn points. Use any attack method except
+          for DDOS and similarly disruptive tactics.
+          <br />
+          Hunt will start at <span>August 24, 2024, 0000 hrs </span>
+          and last for 24 hours.
+          <br />
+          Join the Discord Server for leads.
         </div>
         <h2>Finals</h2>
         <div>
-          Shortlisted participants will be selected to participate in the
-          offline final round.
+          Shortlisted participants will participate in the final offline round.
         </div>
       </div>
     ),
     contact: (
       <div>
-        Prradyun Bhattacharjee <br />
-        Discord: <span>_arucardo_</span> <br />
-        Phone No: <span> +91 73033 16890</span>
+        Ritobrato Bhaumik, Ariet Jha <br />
+        Discord: <span>ritobrato, proplayz</span> <br />
+        Phone No: <span> +91 77019 60539, +91 88264 19994</span>
       </div>
     ),
   },
@@ -230,9 +232,9 @@ export const data = [
       <div className="primary">
         <h2>Details</h2>
         <div>
-          Participants will design an poster, based on a topic given on the
-          spot. Participants have the freedom to use any software of their
-          choice. Every participant must carry their own device for the event.
+          Participants will design a poster, based on a topic given on the spot.
+          Participants have the freedom to use any software of their choice.
+          Every participant must carry their own device for the event.
         </div>
       </div>
     ),
@@ -258,14 +260,26 @@ export const data = [
     ),
     body: (
       <div className="primary">
-        <h2>Details</h2>
+        <h2>Prelims</h2>
         <div>
-          Participants need to create a short movie from the clips and music
-          provided.
+          Participants have to create a short film of 4 to 6 minutes, on the
+          topic <span>‘Whispering Shadows’</span>.
           <br />
           <br />
-          Participants will carry their own devices. Use of any template is
-          strictly prohibited
+          Plagiarism is strictly prohibited. Any use of foul language,
+          inappropriate and stock videos and pictures are prohibited and If
+          found the participant will be disqualified.
+          <br />
+          Join the Discord server and submit your prelims by{" "}
+          <span> September 26, 2024, 23:59 hrs</span>.
+          <br />
+          <h2>Finals</h2>
+          Shortlisted Teams will have to bring their project on the event day,
+          in a pen drive or on their laptop.
+          <br />
+          <br />
+          They will have to present their project, which will be followed by a
+          Q&A session
         </div>
       </div>
     ),
@@ -331,9 +345,9 @@ export const data = [
         <h2>Prelims</h2>
         <div>
           It will be held on the online platform HackerRank on{" "}
-          <span>August 21, 2024, from 900 hrs to 1100 hrs</span>. Participants
-          are required to join the <span>Discord Server</span> before the event
-          date.
+          <span>September 25, 2024, from 0900 hrs to 1100 hrs</span>.
+          Participants are required to join the <span>Discord Server</span>{" "}
+          before the event date.
         </div>
         <h2>Finals</h2>
         <div>
@@ -351,75 +365,46 @@ export const data = [
     ),
   },
   {
-    link: "hackathon",
+    link: "ideathon",
     img: "",
-    nome: "Hackathon",
-    n: 2,
+    nome: "Ideathon",
+    n: 3,
     dom: "OPEN",
-    mode: "OFFLINE",
-    software: (
-      <>
-        Software: <span>Any IDE</span>
-      </>
-    ),
-    body: (
-      <div className="primary">
-        <h2>Details</h2>
-        <div>
-          Participants will have to design an app/website/chrome
-          extension/etc.(Any type of <span>Software</span>), on the topic{" "}
-          <span>‘Developer productivity’</span>.
-          <br />
-          <br />
-          Participants will have to bring their project on the event day, in a
-          pen drive or on their laptop.
-          <br />
-          <br />
-          They will have to present their project, which will be followed by a
-          QnA session.
-        </div>
-      </div>
-    ),
-    contact: (
-      <div>
-        Amaan Elahi <br />
-        Discord: <span> amon.elahi</span> <br />
-        Phone No: <span> +91 98702 11033</span>
-      </div>
-    ),
-  },
-  {
-    link: "keynote",
-    img: "",
-    nome: "Keynote",
-    n: 2,
-    dom: "OPEN",
-    mode: "OFFLINE",
+    mode: "HYBRID",
     software: <></>,
     body: (
       <div className="primary">
-        <h2>Details</h2>
+        <h2>Prelims</h2>
         <div>
-          Participants are required to create a pitch deck on their design idea
-          on the topic{" "}
+          Participants must create a pitch deck and a working prototype
+          (software/hardware) based on the prompt:
           <span>
-            “Innovating Technological Solutions to Prevent Animal Cruelty in the
-            Cosmetic Industry”
-          </span>{" "}
-          , while addressing relevant SDGs.
+            “Develop a plan to reduce space debris and ensure long-term space
+            sustainability”
+          </span>
+          .
           <br />
           <br />
-          Participants will have to bring their projects to school on the day of
-          the event, in pen drives or on their laptop, and present it to the
-          judge. This will be followed by a QnA session.
+          Deliverables should include: Business-Oriented Pitch Deck Fully
+          Functional Prototype Mockups, Promotional Videos, or Marketing Design
+          (at least one) Join the Discord server and submit your prelims by
+          September 26, 2024, 23:59 hrs.
+          <br />
         </div>
+        <h2>Finals</h2>
+        Shortlisted Teams will have to bring their project on the event day, in
+        a pen drive or on their laptop.
+        <br />
+        <br />
+        They will have to present their project, which will be followed by a Q&A
+        session
       </div>
     ),
     contact: (
       <div>
-        Shambhavi Sharma <br />
-        Discord: <span> shambhavi5630</span> <br />
-        Phone No: <span> +91 88008 38256</span>
+        Shambhavi Sharma, Amaan Elahi <br />
+        Discord: <span>shambhavi5630, amon.elahi</span> <br />
+        Phone No: <span>+91 88008 38256, +91 98702 11033</span>
       </div>
     ),
   },
@@ -437,21 +422,25 @@ export const data = [
     ),
     body: (
       <div className="primary">
-        <h2>Details</h2>
+        <h2>Prelims</h2>
         <div>
           Design a versatile chatbot using Python for an imaginary product. The
           chatbot should serve as a virtual assistant capable of answering a
-          wide range of user inquiries related to the product of your choice.
-          Key functionalities should include,{" "}
-          <span>
-            Product Information, Pricing, Availability, Delivery Options,
-            Customer Support
-          </span>
+          wide range of user inquiries related to the product of your choice. At
+          least 4 of the given key functionalities are required: Product
+          Information Pricing Availability Delivery Options Customer Support
+          Participants will have to bring their projects in pen drive or carry
+          their laptop on the day of event. Join the Discord server and submit
+          your prelims by <span>September 26, 2024, 23:59 hrs</span>
           .
           <br />
           <br />
-          Participants will have to bring their projects in pen drive or carry
-          their laptop on the day of event.
+          Shortlisted Teams will have to bring their project on the event day,
+          in a pen drive or on their laptop.
+          <br />
+          <br />
+          They will have to present their project, which will be followed by a
+          Q&A session
         </div>
       </div>
     ),
@@ -504,9 +493,9 @@ export const data = [
     ),
     contact: (
       <div>
-        Ritik Singh <br />
-        Discord: <span> thebatman1817</span> <br />
-        Phone No: <span> +91 96671 84015</span>
+        Ritik Singh, Surat Sahni <br />
+        Discord: <span> thebatman1817, philiathequesadilla</span> <br />
+        Phone No: <span> +91 96671 84015, +91 99681 95551</span>
       </div>
     ),
   },

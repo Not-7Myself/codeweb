@@ -7,14 +7,14 @@ import Team from "./Team";
 import EventList from "./EventList";
 import Contact from "./Contact";
 import Footer from "./footer";
+import Brochure from "./Brochure";
+import Register from "./Register";
 
 import { data } from "./data1";
 
-// src/App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-//import Home from "./components/Home";
 import "./App.css";
 
 const ExternalRedirect = ({ to }) => {
@@ -43,18 +43,8 @@ function App() {
                 );
               })}
             </Route>
-            <Route
-              path="/Register"
-              element={
-                <ExternalRedirect to="https://forms.gle/CTaJthVc6Vz7hePs9" />
-              }
-            />
-            <Route
-              path="/Brochure"
-              element={
-                <ExternalRedirect to="https://drive.google.com/drive/folders/19R_V3WPiK2jzoPqir7o2CsdV0DYQO1sC?usp=sharing" />
-              }
-            />
+            <Route path="/Register" element={<Register />} />
+            <Route path="/Brochure" element={<Brochure />} />
           </Routes>
           <Footer />
         </div>

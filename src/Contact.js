@@ -27,7 +27,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-boxes">
-        <div className="box">
+        <div className="boxy">
           <h2>Moloy Sikka</h2>
           <p>
             <strong>President</strong>
@@ -39,7 +39,7 @@ const Contact = () => {
             <strong>Phone Number:</strong> +91 96505 49484
           </p>
         </div>
-        <div className="box">
+        <div className="boxy">
           <h2>Ms. Sujata Bhardwaj</h2>
           <p>
             <strong>HOD Computer Science</strong>
@@ -51,7 +51,7 @@ const Contact = () => {
             <strong>Phone Number:</strong> +91 92133 93707
           </p>
         </div>
-        <div className="box">
+        <div className="boxy">
           <h2>Vipul Mittal</h2>
           <p>
             <strong>Robotics President</strong>
@@ -60,7 +60,7 @@ const Contact = () => {
             <strong>Email:</strong> vipulmittal803@gmail.com
           </p>
           <p>
-            <strong>Phone Number:</strong> +91 98702 11033
+            <strong>Phone Number:</strong> +91 95281 43384
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import "./Home.css";
-import teaser from "./vids/Teaser.mp4";
+import teaser from "./vids/teaser24.mp4";
 import { ReactTyped as Typed } from "react-typed";
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
@@ -14,10 +14,16 @@ export default function Home() {
       duration: 2000,
       reset: true,
     });
+    const srs = ScrollReveal({
+      origin: "bottom",
+      distance: "80px",
+      duration: 1400,
+      reset: true,
+    });
 
-    sr.reveal(".hero", { delay: 300 });
-    sr.reveal(".text", { delay: 200 });
-    sr.reveal(".imag", { delay: 300 });
+    sr.reveal(".hero", { delay: 200 });
+    srs.reveal(".text", { delay: 0 });
+    srs.reveal(".imag", { delay: 50 });
 
     return () => {
       sr.destroy();
@@ -56,7 +62,7 @@ export default function Home() {
               loop
             />
           </p>
-          <h3 className="date">27-28 August, 2K24</h3>
+          <h3 className="date">30th September - 1st October, 2K24</h3>
           <span>
             <NavLink className="btn" to="/Register">
               <button>REGISTER</button>
@@ -76,7 +82,13 @@ export default function Home() {
       <About />
       <div className="teaser">
         <h1>TEASER</h1>
-        <video src={teaser} loop disablePictureInPicture></video>
+        <video
+          src={teaser}
+          controls
+          loop
+          disablePictureInPicture
+          playsInline
+        ></video>{" "}
       </div>
     </div>
   );
@@ -89,10 +101,10 @@ function About() {
         CODE is an illustrious annual technological symposium hosted by the CODE
         Club of Apeejay School, Noida. This prestigious event brings together
         tech enthusiasts from across Delhi-NCR to compete at the cutting edge of
-        technology. With a rich agenda featuring competitive programming, group
-        discussions, and robotic face-offs, CODE stands as a premier platform
-        for fostering technological excellence and inspiring the next generation
-        of innovators.
+        technology. With a rich agenda featuring competitive programming, a
+        cryptic hunt, robotic face-offs, and many more, CODE stands as a premier
+        platform for fostering technological excellence and inspiring the next
+        generation of innovators.
       </div>
       <div className="imag">
         <img src={code} alt="CODE" />
