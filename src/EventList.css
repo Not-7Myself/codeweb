@@ -29,7 +29,7 @@ a {
   overflow: hidden;
   transition: 0.1s all ease-in-out;
 }
-.box .card-image {
+.box .card-image img {
   width: 180px !important;
   height: 100%;
   object-fit: cover;
