@@ -248,11 +248,11 @@ const cardData6 = [
     ],
   },
   {
-    name: "Siya Batra",
-    img: Siya,
+    name: "Rakshit Mathur",
+    img: Rakshit,
 
     title: "Secretary",
-    description: "H&M shoplifter",
+    description: "It's everything until it becomes nothing",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -262,19 +262,6 @@ const cardData6 = [
   },
 ];
 const cardData7 = [
-  {
-    name: "Abhiroop Kapoor",
-    img: Abhiroop,
-
-    title: "Secretary",
-    description: "Tainted are those who do not attempt",
-    icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
-    ],
-  },
   {
     name: "Yashraj Bhardwaj",
     img: Yashraj,
@@ -301,14 +288,27 @@ const cardData7 = [
       { icon: faSpotify, href: "#" },
     ],
   },
+  {
+    name: "Abhiroop Kapoor",
+    img: Abhiroop,
+
+    title: "Secretary",
+    description: "Tainted are those who do not attempt",
+    icons: [
+      { icon: faInstagram, href: "#" },
+      { icon: faEnvelope, href: "#" },
+      { icon: faGithub, href: "#" },
+      { icon: faSpotify, href: "#" },
+    ],
+  },
 ];
 const cardData8 = [
   {
-    name: "Ritobrato Bhaumik",
-    img: Rito,
+    name: "Siya Batra",
+    img: Siya,
 
     title: "Secretary",
-    description: "God's Perfect Idiot",
+    description: "H&M shoplifter",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
@@ -317,11 +317,11 @@ const cardData8 = [
     ],
   },
   {
-    name: "Rakshit Mathur",
-    img: Rakshit,
+    name: "Ritobrato Bhaumik",
+    img: Rito,
 
     title: "Secretary",
-    description: "It's everything until it becomes nothing",
+    description: "God's Perfect Idiot",
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },

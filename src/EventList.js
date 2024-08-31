@@ -1,8 +1,6 @@
 import React from "react";
 import "./EventList.css";
 
-import Spline from "@splinetool/react-spline";
-
 import digitalimaging from "./Icons/digitalimaging.jpeg";
 import gaming from "./Icons/gaming.jpg";
 import pycode from "./Icons/pycode.jpg";
@@ -45,23 +43,92 @@ const eventImages = [
         <>
           Destroy each other in a
           <br />
-          Fight-to-Death (using bots ofcourse!)
+          Fight-for-Glory (using bots of course!)
         </>
       ),
     },
 
-    { nome: "chatforge", value: chatforge, name: "Chat Forge" },
-    { nome: "framefusion", value: framefusion, name: "Frame Fusion" },
-    { nome: "dcrypt", value: dcrypt, name: "DCrypt" },
-    { nome: "pycode", value: pycode, name: "PyCODE" },
-    { nome: "quiz", value: quiz, name: "Quiz" },
-    { nome: "musicmatrix", value: musicmatrix, name: "Music Matrix" },
-    { nome: "gaming", value: gaming, name: "Gaming" },
-    { nome: "digitalimaging", value: digitalimaging, name: "Digital Imaging" },
-    { nome: "groupdiscussion", value: gd, name: "Group Discussion" },
-    { nome: "photography", value: photography, name: "Photography" },
-    { nome: "tuxpaint", value: tuxpaint, name: "Tux Paint" },
-    { nome: "scratch", value: scratch, name: "Scratch" },
+    {
+      nome: "chatforge",
+      value: chatforge,
+      name: "Chat Forge",
+      desc: <>Create AI bots, which will steal your jots (jobs didnt rhyme)</>,
+    },
+    {
+      nome: "framefusion",
+      value: framefusion,
+      name: "Frame Fusion",
+      desc: <>Lights, Camera - never mind you can't afford those</>,
+    },
+    {
+      nome: "dcrypt",
+      value: dcrypt,
+      name: "DCrypt",
+      desc: (
+        <>
+          Use your brain, to solve the hardest cryptic and hacking problems ever
+          problemed!
+        </>
+      ),
+    },
+    {
+      nome: "pycode",
+      value: pycode,
+      name: "PyCODE",
+      desc: <>Do Programming and Graphs like 3D</>,
+    },
+    {
+      nome: "quiz",
+      value: quiz,
+      name: "Quiz",
+      desc: (
+        <>
+          The ultimate challenge of your knowledge using your non-existent wits.
+        </>
+      ),
+    },
+    {
+      nome: "musicmatrix",
+      value: musicmatrix,
+      name: "Music Matrix",
+      desc: <>Compose your beats like its for your 9th symphony...</>,
+    },
+    {
+      nome: "gaming",
+      value: gaming,
+      name: "Gaming",
+      desc: <>Games don't make you violent, lag does</>,
+    },
+    {
+      nome: "digitalimaging",
+      value: digitalimaging,
+      name: "Digital Imaging",
+      desc: <>Either you are a designer, or you use Canva.</>,
+    },
+    {
+      nome: "groupdiscussion",
+      value: gd,
+      name: "Group Discussion",
+      desc: <>Welcome to a 'Disciplined' News Room</>,
+    },
+    {
+      nome: "photography",
+      value: photography,
+      name: "Photography",
+      desc: <>Show the people what Your eyes can see</>,
+    },
+    {
+      nome: "tuxpaint",
+      value: tuxpaint,
+      name: "Tux Paint",
+      desc: <>Wassup Tech Cat</>,
+    },
+    {
+      nome: "scratch",
+      value: scratch,
+      name: "Scratch",
+      desc: <>Wassup Artsy Penguin</>,
+    },
   ],
 ];
 

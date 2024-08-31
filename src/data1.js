@@ -73,7 +73,7 @@ export const data = [
         <div>
           It will be held online and the games will be announced a few days
           before the event on the Discord Server. There will be 2 rounds for the
-          prelims held on September 25, 2024 from 1900hrs to 2100hrs
+          prelims held on September 26, 2024 from 1900hrs to 2100hrs
         </div>
         <h2>Finals</h2>
         <div>
@@ -197,7 +197,7 @@ export const data = [
           Jeopardy-style CTF levels to earn points. Use any attack method except
           for DDOS and similarly disruptive tactics.
           <br />
-          Hunt will start at <span>August 24, 2024, 0000 hrs </span>
+          Hunt will start at <span>August 26, 2024, 0000 hrs </span>
           and last for 24 hours.
           <br />
           Join the Discord Server for leads.
@@ -271,7 +271,11 @@ export const data = [
           found the participant will be disqualified.
           <br />
           Join the Discord server and submit your prelims by{" "}
-          <span> September 26, 2024, 23:59 hrs</span>.
+          <span> September 26, 2024, 23:59 hrs</span> in the given{" "}
+          <a className="link" href="https://forms.gle/tTqqRzmKjobQGcbg8">
+            link
+          </a>
+          .
           <br />
           <h2>Finals</h2>
           Shortlisted Teams will have to bring their project on the event day,
@@ -388,7 +392,11 @@ export const data = [
           Deliverables should include: Business-Oriented Pitch Deck Fully
           Functional Prototype Mockups, Promotional Videos, or Marketing Design
           (at least one) Join the Discord server and submit your prelims by
-          September 26, 2024, 23:59 hrs.
+          September 26, 2024, 23:59 hrs in the given{" "}
+          <a className="link" href="https://forms.gle/tTqqRzmKjobQGcbg8">
+            link
+          </a>
+          .
           <br />
         </div>
         <h2>Finals</h2>
@@ -432,6 +440,10 @@ export const data = [
           Participants will have to bring their projects in pen drive or carry
           their laptop on the day of event. Join the Discord server and submit
           your prelims by <span>September 26, 2024, 23:59 hrs</span>
+          in the given{" "}
+          <a className="link" href="https://forms.gle/tTqqRzmKjobQGcbg8">
+            link
+          </a>
           .
           <br />
           <br />

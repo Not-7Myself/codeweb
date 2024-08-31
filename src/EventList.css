@@ -36,6 +36,7 @@ a {
 }
 
 .box .card-content {
+  position: relative;
   flex: 1;
   padding: 30px;
   display: flex;
@@ -45,7 +46,7 @@ a {
 }
 
 .box .card-title {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0;
   color: var(--text);
   margin-bottom: 16px;
@@ -53,12 +54,15 @@ a {
 }
 
 .box .card-description {
+  position: absolute;
   text-align: left;
   color: var(--txt2);
   font-family: "Poppins", sans-serif;
   padding: 0;
-  margin-top: 50px;
+  top: 100px;
+  font-weight: 400;
   font-size: 16px;
+  margin-right: 20px;
   transform: translateY(-50%);
 }
 

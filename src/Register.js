@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Brochure.css";
 
 const Register = () => {
-  const externalUrl = "/";
-  const redirectDelay = 5;
+  const externalUrl = "https://forms.gle/3neXe99QmtVGkLQZA";
+  const redirectDelay = 3;
   const [count, setCount] = useState(redirectDelay);
 
   useEffect(() => {

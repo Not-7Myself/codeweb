@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Brochure.css";
 
 const Brochure = () => {
-  const externalUrl = "/";
-  const redirectDelay = 5;
+  const externalUrl = "https://drive.google.com/file/d/1UbLvaCsVh4zXdsaJegJfkDJXaiOeCbVE/view";
+  const redirectDelay = 3;
   const [count, setCount] = useState(redirectDelay);
 
   useEffect(() => {
