@@ -96,6 +96,9 @@ export default function Home() {
 function About() {
   return (
     <div className="about">
+      <div className="imag">
+        <img src={code} alt="CODE" />
+      </div>
       <div className="text">
         <h1>About</h1>
         CODE is an illustrious annual technological symposium hosted by the CODE
@@ -105,9 +108,22 @@ function About() {
         cryptic hunt, robotic face-offs, and many more, CODE stands as a premier
         platform for fostering technological excellence and inspiring the next
         generation of innovators.
-      </div>
-      <div className="imag">
-        <img src={code} alt="CODE" />
+        <div className="btns">
+          <a href="https://chat.whatsapp.com/H8yqL6cYmhZB2tqg5Rbv1y">
+            <button className="ws">
+              {" "}
+              <i className="fab fa-whatsapp"></i>
+              {"   "}Join Whatsapp
+            </button>
+          </a>
+          <a href="https://discord.gg/CbCnY8bty2">
+            <button className="dc">
+              {" "}
+              <i className="fab fa-discord"></i>
+              {"   "}Join Discord
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );

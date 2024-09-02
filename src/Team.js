@@ -3,6 +3,7 @@ import {
   faInstagram,
   faGithub,
   faSpotify,
+  faSquareBehance,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,10 +39,13 @@ const cardData1 = [
     title: "President",
     description: "All that is gold does not glitter.",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/yolomsikka/" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      { icon: faGithub, href: "https://github.com/MoloySikka" },
+      {
+        icon: faSpotify,
+        href: "https://open.spotify.com/user/x7zaoulqe88cd6hv3siq5aiil?si=AU4KFzOCRNqkjfPZ5soM6A",
+      },
     ],
   },
   {
@@ -50,9 +54,9 @@ const cardData1 = [
     title: "Robotics President",
     description: "Veni. Vidi. Vici.",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/vip.mittal.803/" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
+      { icon: faGithub, href: "https://github.com/aouxwoux" },
       { icon: faSpotify, href: "#" },
     ],
   },
@@ -65,9 +69,9 @@ const cardData2 = [
     title: "Vice President",
     description: "maybe, maybe not...",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/amaan_elahi07/" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
+      { icon: faGithub, href: "https://github.com/Amaan-elahi" },
       { icon: faSpotify, href: "#" },
     ],
   },
@@ -78,8 +82,8 @@ const cardData2 = [
     title: "Vice President",
     description: "stop me if you can",
     icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/manan.kasana/" },
+      { icon: faEnvelope, href: "" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
     ],
@@ -92,8 +96,11 @@ const cardData2 = [
     icons: [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      { icon: faGithub, href: "https://github.com/Philia-S" },
+      {
+        icon: faSpotify,
+        href: "https://open.spotify.com/user/lz00zw64tgurn0n1kazswd0jo?si=20974ae56dc3484b",
+      },
     ],
   },
 ];
@@ -118,7 +125,10 @@ const cardData3 = [
     title: "Director",
     description: "The godfather>>",
     icons: [
-      { icon: faInstagram, href: "#" },
+      {
+        icon: faInstagram,
+        href: "https://www.instagram.com/sakshampokhriyal_/",
+      },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
@@ -131,14 +141,12 @@ const cardData3 = [
     title: "Director",
     description: "Messy bun and getting things done:)",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/_shxmbhaviiii07" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
     ],
   },
-];
-const cardData4 = [
   {
     name: "Ritik Singh",
     img: Ritik,
@@ -172,14 +180,12 @@ const cardData4 = [
     title: "Director",
     description: "Victoria Concordia Crescit",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/gwultatharva/" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
+      { icon: faGithub, href: "https://github.com/GWUltAtharva" },
       { icon: faSpotify, href: "#" },
     ],
   },
-];
-const cardData5 = [
   {
     name: "Saharsh Bhardwaj",
     img: Saharsh,
@@ -187,7 +193,10 @@ const cardData5 = [
     title: "Director",
     description: "You are never alone, god is always with you.",
     icons: [
-      { icon: faInstagram, href: "#" },
+      {
+        icon: faInstagram,
+        href: "https://www.instagram.com/saharsh.bharadwaj001",
+      },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
@@ -200,9 +209,9 @@ const cardData5 = [
     title: "Director",
     description: "ब्रह्म सत्यं जगत मिथ्या जीवो ब्रह्मैव नापरः ",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/proplayz77/" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
+      { icon: faGithub, href: "https://github.com/ProPlayz77" },
       { icon: faSpotify, href: "#" },
     ],
   },
@@ -213,14 +222,12 @@ const cardData5 = [
     title: "Director",
     description: "Preoccupied with a single leaf... you won't see the tree. ",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/maulik._.jain22/" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
+      { icon: faGithub, href: "https://github.com/ishaangupta240" },
       { icon: faSpotify, href: "#" },
     ],
   },
-];
-const cardData6 = [
   {
     name: "Antahakaran",
     img: Kanta,
@@ -228,7 +235,7 @@ const cardData6 = [
     title: "Director",
     description: "Show Me Your MOTIVATION!!",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/godzilarampag/" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
@@ -241,8 +248,11 @@ const cardData6 = [
     title: "Director",
     description: "Mujhe Bread pasand hai :D",
     icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
+      {
+        icon: faInstagram,
+        href: "https://www.instagram.com/nairit.artz",
+      },
+      { icon: faSquareBehance, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
     ],
@@ -254,14 +264,15 @@ const cardData6 = [
     title: "Secretary",
     description: "It's everything until it becomes nothing",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/_rakshit_19/" },
       { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      { icon: faGithub, href: "https://github.com/Rakshit-Mathur" },
+      {
+        icon: faSpotify,
+        href: "https://open.spotify.com/playlist/0ozdSESSPtTKI1uvNdaxtR?si=16104ec77fd448b3",
+      },
     ],
   },
-];
-const cardData7 = [
   {
     name: "Yashraj Bhardwaj",
     img: Yashraj,
@@ -269,7 +280,7 @@ const cardData7 = [
     title: "Secretary",
     description: "Trust God's Plan",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/yash_raj.20/" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
@@ -282,7 +293,7 @@ const cardData7 = [
     title: "Secretary",
     description: "Professional overthinker",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/ishaan_1610/" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
@@ -295,14 +306,12 @@ const cardData7 = [
     title: "Secretary",
     description: "Tainted are those who do not attempt",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faInstagram, href: "https://www.instagram.com/abrp_abhiroop/" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       { icon: faSpotify, href: "#" },
     ],
   },
-];
-const cardData8 = [
   {
     name: "Siya Batra",
     img: Siya,
@@ -313,9 +322,13 @@ const cardData8 = [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faSpotify,
+        href: "https://open.spotify.com/user/oofkkwmh2l8tin9t51ynnznw2",
+      },
     ],
   },
+
   {
     name: "Ritobrato Bhaumik",
     img: Rito,
@@ -326,10 +339,11 @@ const cardData8 = [
       { icon: faInstagram, href: "#" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      { icon: faSpotify, href: "https://bit.ly/ritospot" },
     ],
   },
 ];
+
 const Card = ({ index, card }) => {
   return (
     <div className="card">
@@ -339,7 +353,6 @@ const Card = ({ index, card }) => {
       <div className="card-content">
         <h2 className="card-title">{card.name}</h2>
         <h3 className="card-post">{card.title}</h3>
-        <p className="card-description">{card.description}</p>
         <div className="card-icons">
           {card.icons.map((icon, index) => (
             <a key={index} href={icon.href} className={icon.icon.iconName}>
@@ -375,11 +388,6 @@ export default function Team() {
       <CardsContainer cards={cardData1} />
       <CardsContainer cards={cardData2} />
       <CardsContainer cards={cardData3} />
-      <CardsContainer cards={cardData4} />
-      <CardsContainer cards={cardData5} />
-      <CardsContainer cards={cardData6} />
-      <CardsContainer cards={cardData7} />
-      <CardsContainer cards={cardData8} />
     </div>
   );
 }
