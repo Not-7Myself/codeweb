@@ -4,6 +4,9 @@ import {
   faGithub,
   faSpotify,
   faSquareBehance,
+  faLinkedin,
+  faSquareXTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -40,7 +43,6 @@ const cardData1 = [
     description: "All that is gold does not glitter.",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/yolomsikka/" },
-      { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "https://github.com/MoloySikka" },
       {
         icon: faSpotify,
@@ -55,7 +57,10 @@ const cardData1 = [
     description: "Veni. Vidi. Vici.",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/vip.mittal.803/" },
-      { icon: faEnvelope, href: "#" },
+      {
+        icon: faLinkedin,
+        href: "https://www.linkedin.com/in/vipul-mittal-073a75289/",
+      },
       { icon: faGithub, href: "https://github.com/aouxwoux" },
       { icon: faSpotify, href: "#" },
     ],
@@ -70,9 +75,7 @@ const cardData2 = [
     description: "maybe, maybe not...",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/amaan_elahi07/" },
-      { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "https://github.com/Amaan-elahi" },
-      { icon: faSpotify, href: "#" },
     ],
   },
   {
@@ -83,9 +86,11 @@ const cardData2 = [
     description: "stop me if you can",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/manan.kasana/" },
-      { icon: faEnvelope, href: "" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faLinkedin,
+        href: "https://www.linkedin.com/in/manan-kasana-a38334277/",
+      },
+      { icon: faSquareXTwitter, href: "https://x.com/Manan_Kasana" },
     ],
   },
   {
@@ -94,8 +99,6 @@ const cardData2 = [
     title: "Robotics Vice President",
     description: "be kind, be courageous 🍀 -my dad(and cinderella)",
     icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "https://github.com/Philia-S" },
       {
         icon: faSpotify,
@@ -111,12 +114,7 @@ const cardData3 = [
 
     title: "Director",
     description: "print('Hello World!')",
-    icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
-    ],
+    icons: [{ icon: faInstagram, href: "#" }],
   },
   {
     name: "Saksham",
@@ -129,9 +127,6 @@ const cardData3 = [
         icon: faInstagram,
         href: "https://www.instagram.com/sakshampokhriyal_/",
       },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
     ],
   },
   {
@@ -142,9 +137,6 @@ const cardData3 = [
     description: "Messy bun and getting things done:)",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/_shxmbhaviiii07" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
     ],
   },
   {
@@ -153,12 +145,7 @@ const cardData3 = [
 
     title: "Director",
     description: "Learn to rest, not to quit.",
-    icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
-    ],
+    icons: [],
   },
   {
     name: "Siddhant Mishra",
@@ -166,12 +153,7 @@ const cardData3 = [
 
     title: "Director",
     description: "print('Hello World!')",
-    icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
-    ],
+    icons: [],
   },
   {
     name: "Atharva Gupta",
@@ -181,9 +163,11 @@ const cardData3 = [
     description: "Victoria Concordia Crescit",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/gwultatharva/" },
-      { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "https://github.com/GWUltAtharva" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faLinkedin,
+        href: "http://www.linkedin.com/in/atharva-gupta-2a32b8284",
+      },
     ],
   },
   {
@@ -197,9 +181,6 @@ const cardData3 = [
         icon: faInstagram,
         href: "https://www.instagram.com/saharsh.bharadwaj001",
       },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
     ],
   },
   {
@@ -210,9 +191,15 @@ const cardData3 = [
     description: "ब्रह्म सत्यं जगत मिथ्या जीवो ब्रह्मैव नापरः ",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/proplayz77/" },
-      { icon: faEnvelope, href: "#" },
+      {
+        icon: faLinkedin,
+        href: "https://www.linkedin.com/in/ariet-jha-9b22a6272/",
+      },
       { icon: faGithub, href: "https://github.com/ProPlayz77" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faYoutube,
+        href: "https://www.youtube.com/@proplayzmcxtreme8641",
+      },
     ],
   },
   {
@@ -223,9 +210,10 @@ const cardData3 = [
     description: "Preoccupied with a single leaf... you won't see the tree. ",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/maulik._.jain22/" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "https://github.com/ishaangupta240" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faLinkedin,
+        href: "https://www.linkedin.com/in/maulik-jain-0961222a3?trk=contact-info",
+      },
     ],
   },
   {
@@ -236,9 +224,12 @@ const cardData3 = [
     description: "Show Me Your MOTIVATION!!",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/godzilarampag/" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faLinkedin,
+        href: "https://www.linkedin.com/in/antahakaran-sadhukhan-164002320/",
+      },
+      { icon: faSquareXTwitter, href: "https://x.com/GodzilaRampag" },
+      { icon: faYoutube, href: "https://www.youtube.com/@GodzilaRampag" },
     ],
   },
   {
@@ -252,9 +243,10 @@ const cardData3 = [
         icon: faInstagram,
         href: "https://www.instagram.com/nairit.artz",
       },
-      { icon: faSquareBehance, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faSquareBehance,
+        href: "https://www.behance.net/nairitchoudhury",
+      },
     ],
   },
   {
@@ -265,7 +257,6 @@ const cardData3 = [
     description: "It's everything until it becomes nothing",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/_rakshit_19/" },
-      { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "https://github.com/Rakshit-Mathur" },
       {
         icon: faSpotify,
@@ -281,9 +272,6 @@ const cardData3 = [
     description: "Trust God's Plan",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/yash_raj.20/" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
     ],
   },
   {
@@ -294,9 +282,12 @@ const cardData3 = [
     description: "Professional overthinker",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/ishaan_1610/" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
+      {
+        icon: faLinkedin,
+        href: "http://www.linkedin.com/in/ishaan-gupta-9255562a8",
+      },
+      { icon: faGithub, href: "https://github.com/ishaangupta240" },
+      { icon: faSquareXTwitter, href: "https://x.com/Ishaan_1610" },
     ],
   },
   {
@@ -307,9 +298,6 @@ const cardData3 = [
     description: "Tainted are those who do not attempt",
     icons: [
       { icon: faInstagram, href: "https://www.instagram.com/abrp_abhiroop/" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "#" },
     ],
   },
   {
@@ -319,7 +307,7 @@ const cardData3 = [
     title: "Secretary",
     description: "H&M shoplifter",
     icons: [
-      { icon: faInstagram, href: "#" },
+      { icon: faLinkedin, href: "http://www.linkedin.com/in/batra-siya" },
       { icon: faEnvelope, href: "#" },
       { icon: faGithub, href: "#" },
       {
@@ -335,12 +323,14 @@ const cardData3 = [
 
     title: "Secretary",
     description: "God's Perfect Idiot",
-    icons: [
-      { icon: faInstagram, href: "#" },
-      { icon: faEnvelope, href: "#" },
-      { icon: faGithub, href: "#" },
-      { icon: faSpotify, href: "https://bit.ly/ritospot" },
-    ],
+    icons: [{ icon: faSpotify, href: "https://bit.ly/ritospot" }],
+  },
+  {
+    name: "S. Govinda Krishna",
+    img: Rito,
+
+    title: "Secretary",
+    icons: [{ icon: faSpotify, href: "https://bit.ly/ritospot" }],
   },
 ];
 
