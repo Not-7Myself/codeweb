@@ -114,7 +114,12 @@ const cardData3 = [
 
     title: "Director",
     description: "print('Hello World!')",
-    icons: [{ icon: faInstagram, href: "#" }],
+    icons: [
+      {
+        icon: faInstagram,
+        href: "https://www.instagram.com/shiveshh_?igsh=MWU0OGdrbWN5eWk2dQ==",
+      },
+    ],
   },
   {
     name: "Saksham",
