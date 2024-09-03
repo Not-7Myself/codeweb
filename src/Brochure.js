@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Brochure.css";
 
 const Brochure = () => {
-  const externalUrl = "https://drive.google.com/file/d/1UbLvaCsVh4zXdsaJegJfkDJXaiOeCbVE/view";
+  const externalUrl =
+    "https://drive.google.com/file/d/1jePr6EnTcY9-OPSjQLY6qITv0w6a82bR/view?usp=sharing";
   const redirectDelay = 3;
   const [count, setCount] = useState(redirectDelay);
 

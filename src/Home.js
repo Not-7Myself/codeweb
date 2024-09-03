@@ -62,7 +62,7 @@ export default function Home() {
               loop
             />
           </p>
-          <h3 className="date">30th September - 1st October, 2K24</h3>
+          <h3 className="date">7th - 8th October, 2K24</h3>
           <span>
             <Link className="btn" to="/Register">
               <button>REGISTER</button>

@@ -114,7 +114,6 @@ p {
 }
 
 .card-title {
-  margin-top: -10 px;
   font-size: 1.2rem;
   justify-self: center;
   color: var(--text);
