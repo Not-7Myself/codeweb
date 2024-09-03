@@ -26,7 +26,7 @@ const Footer = () => {
           <i className="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://discord.gg/CbCnY8bty2"
+          href="https://discord.gg/A5E3sGqgMs"
           target="_blank"
           rel="noopener noreferrer"
         >

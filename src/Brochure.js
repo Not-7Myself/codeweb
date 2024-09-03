@@ -3,7 +3,7 @@ import "./Brochure.css";
 
 const Brochure = () => {
   const externalUrl =
-    "https://drive.google.com/file/d/1jePr6EnTcY9-OPSjQLY6qITv0w6a82bR/view?usp=sharing";
+    "https://drive.google.com/file/d/15r7PhT-SH7Yrc9nmSTxEJfQ6wG32x1v1/view?usp=drive_link";
   const redirectDelay = 3;
   const [count, setCount] = useState(redirectDelay);
 

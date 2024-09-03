@@ -34,6 +34,7 @@ import Surat from "./Pics/surat.jpg";
 import Rito from "./Pics/Rito.jpg";
 import sid from "./Pics/siddhant.jpg";
 import amaan from "./Pics/Amaan.jpg";
+import govi from "./Pics/govinda.png";
 
 const cardData1 = [
   {
@@ -332,10 +333,12 @@ const cardData3 = [
   },
   {
     name: "S. Govinda Krishna",
-    img: Rito,
+    img: govi,
 
     title: "Secretary",
-    icons: [{ icon: faSpotify, href: "https://bit.ly/ritospot" }],
+    icons: [
+      { icon: faInstagram, href: "https://www.instagram.com/idli_ep1c/" },
+    ],
   },
 ];
 

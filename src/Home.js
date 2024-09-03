@@ -116,7 +116,7 @@ function About() {
               {"   "}Join Whatsapp
             </button>
           </a>
-          <a href="https://discord.gg/CbCnY8bty2">
+          <a href="https://discord.gg/A5E3sGqgMs">
             <button className="dc">
               {" "}
               <i className="fab fa-discord"></i>

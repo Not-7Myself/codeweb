@@ -73,7 +73,7 @@ export const data = [
         <div>
           It will be held online and the games will be announced a few days
           before the event on the Discord Server. There will be 2 rounds for the
-          prelims held on October 2, 2024 from 1900hrs to 2100hrs
+          prelims held on <span>October 2, 2024 from 1900hrs to 2100hrs</span>.
         </div>
         <h2>Finals</h2>
         <div>
@@ -389,10 +389,15 @@ export const data = [
           .
           <br />
           <br />
-          Deliverables should include: Business-Oriented Pitch Deck Fully
-          Functional Prototype Mockups, Promotional Videos, or Marketing Design
-          (at least one) Join the Discord server and submit your prelims by
-          October 3, 2024, 23:59 hrs in the given{" "}
+          Deliverables should include:
+          <ul>
+            <li>Business-Oriented Pitch Deck Fully</li>
+            <li>Functional Prototype Mockups</li>
+            <li>Promotional Videos, or Marketing Design (at least one) </li>
+          </ul>
+          <br />
+          Join the Discord server and submit your prelims by
+          <span> October 3, 2024, 2359 hrs </span> in the given{" "}
           <a className="link" href="https://forms.gle/tTqqRzmKjobQGcbg8">
             link
           </a>
@@ -435,8 +440,14 @@ export const data = [
           Design a versatile chatbot using Python for an imaginary product. The
           chatbot should serve as a virtual assistant capable of answering a
           wide range of user inquiries related to the product of your choice. At
-          least 4 of the given key functionalities are required: Product
-          Information Pricing Availability Delivery Options Customer Support
+          least 4 of the given key functionalities are required:
+          <ul>
+            <li>Product Information</li>
+            <li>Pricing</li>
+            <li>Availability</li>
+            <li>Delivery Options</li>
+            <li>Customer Support</li>
+          </ul>
           Participants will have to bring their projects in pen drive or carry
           their laptop on the day of event. Join the Discord server and submit
           your prelims by <span>October 3, 2024, 23:59 hrs </span>
