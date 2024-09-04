@@ -2,18 +2,18 @@ import React from "react";
 import "./EventList.css";
 
 import digitalimaging from "./Icons/digitalimaging.jpeg";
-import gaming from "./Icons/gaming.jpg";
+import gaming from "./Icons/gaming.png";
 import pycode from "./Icons/pycode.jpg";
 import dcrypt from "./Icons/dcrpty.jpg";
 import scratch from "./Icons/scratch.jpg";
 import musicmatrix from "./Icons/musicmatrix.jpg";
-import photography from "./Icons/photography.jpg";
+import photography from "./Icons/photography.png";
 import quiz from "./Icons/quiz.jpg";
-import gd from "./Icons/gd.jpg";
+import gd from "./Icons/gd.png";
 import ideathon from "./Icons/ideathon.png";
 import chatforge from "./Icons/chatforge.jpg";
 import robowars from "./Icons/robowars.png";
-import framefusion from "./Icons/framefusion.jpg";
+import framefusion from "./Icons/framefusion.png";
 import tuxpaint from "./Icons/tuxpaint.png";
 
 import { Link } from "react-router-dom";
