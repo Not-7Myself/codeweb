@@ -47,9 +47,6 @@ const Contact = () => {
           <p>
             <strong>Email:</strong> sujata.bhardwaj@learn.apeejay.edu
           </p>
-          <p>
-            <strong>Phone Number:</strong> +91 92133 93707
-          </p>
         </div>
         <div className="boxy">
           <h2>Vipul Mittal</h2>
