@@ -63,6 +63,11 @@ export default function NavBar() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link to="/Prelims" className="link">
+                Prelims
+              </Link>
+            </li>
           </div>
           <li className="icons">
             <svg
@@ -118,6 +123,11 @@ export default function NavBar() {
           <li>
             <Link to="/Contact" className="link">
               Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/Prelims" className="link">
+              Prelims
             </Link>
           </li>
           <hr />
