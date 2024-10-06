@@ -48,7 +48,7 @@ function App() {
 function ExternalRedirect() {
   React.useEffect(() => {
     window.location.href =
-      "https://drive.google.com/file/d/1-VtuGJjho4whxsx1UWXql8rwop5Onco1/view?usp=sharing";
+      "https://drive.google.com/file/d/19z3of86A8g-dPFmEuLYu3Sp4ZL2JwoSj/view?usp=sharing";
   }, []);
 
   return <p>Redirecting...</p>;
