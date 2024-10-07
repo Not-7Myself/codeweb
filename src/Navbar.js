@@ -64,8 +64,8 @@ export default function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="/Prelims" className="link">
-                Prelims
+              <Link to="/Results" className="link">
+                Results
               </Link>
             </li>
           </div>

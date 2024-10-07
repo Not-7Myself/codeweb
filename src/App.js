@@ -38,7 +38,6 @@ function App() {
             </Route>
             <Route path="/Register" element={<Register />} />
             <Route path="/Brochure" element={<Brochure />} />
-            <Route path="/Prelims" element={<ExternalRedirect />} />
             <Route path="/Results" element={<Results />} />
           </Routes>
           <Footer />
@@ -46,14 +45,6 @@ function App() {
       </Router>
     </>
   );
-}
-function ExternalRedirect() {
-  React.useEffect(() => {
-    window.location.href =
-      "https://drive.google.com/file/d/19z3of86A8g-dPFmEuLYu3Sp4ZL2JwoSj/view?usp=sharing";
-  }, []);
-
-  return <p>Redirecting...</p>;
 }
 
 export default App;
