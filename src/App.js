@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Footer from "./footer";
 import Brochure from "./Brochure";
 import Register from "./Register";
+import Results from "./Results";
 
 import { data } from "./data1";
 
@@ -38,6 +39,7 @@ function App() {
             <Route path="/Register" element={<Register />} />
             <Route path="/Brochure" element={<Brochure />} />
             <Route path="/Prelims" element={<ExternalRedirect />} />
+            <Route path="/Results" element={<Results />} />
           </Routes>
           <Footer />
         </div>

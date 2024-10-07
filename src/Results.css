@@ -1,0 +1,52 @@
+.results-container {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: var(--primary);
+  margin-bottom: 10px;
+  font-family: "Oxanium", sans-serif;
+}
+
+.day {
+  text-align: center;
+  font-size: 24px;
+  color: #777;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.event-result {
+  margin-bottom: 20px;
+}
+
+.event-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.event-places {
+  list-style: none;
+  padding-left: 0;
+}
+
+.event-places li {
+  font-size: 18px;
+  margin: 5px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.event-places li strong {
+  color: #222;
+}
+.school-code {
+  font-style: italic;
+  color: #777;
+}
